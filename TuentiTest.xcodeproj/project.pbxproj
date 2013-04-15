@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDBBA75216EB402200729C97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBA75116EB402200729C97 /* UIKit.framework */; };
+		CDBBA75416EB402200729C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBA75316EB402200729C97 /* Foundation.framework */; };
+		CDBBA75616EB402200729C97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBA75516EB402200729C97 /* CoreGraphics.framework */; };
+		CDBBA75C16EB402200729C97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDBBA75A16EB402200729C97 /* InfoPlist.strings */; };
+		CDBBA75E16EB402200729C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBA75D16EB402200729C97 /* main.m */; };
+		CDBBA76216EB402200729C97 /* RLFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBA76116EB402200729C97 /* RLFAppDelegate.m */; };
+		CDBBA76416EB402200729C97 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBBA76316EB402200729C97 /* Default.png */; };
+		CDBBA76616EB402200729C97 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBBA76516EB402200729C97 /* Default@2x.png */; };
+		CDBBA76816EB402200729C97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBBA76716EB402200729C97 /* Default-568h@2x.png */; };
+		CDBBA76B16EB402200729C97 /* RLFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBA76A16EB402200729C97 /* RLFViewController.m */; };
+		CDBBA76E16EB402200729C97 /* RLFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBBA76C16EB402200729C97 /* RLFViewController.xib */; };
+		CDBBA77616EB435E00729C97 /* RLF_MainData.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBA77516EB435E00729C97 /* RLF_MainData.m */; };
+		CDBBA77A16EB554A00729C97 /* RLF_TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBA77816EB554A00729C97 /* RLF_TransactionsViewController.m */; };
+		CDBBA77B16EB554A00729C97 /* RLF_TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBBA77916EB554A00729C97 /* RLF_TransactionsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDBBA74E16EB402200729C97 /* TuentiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuentiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBBA75116EB402200729C97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDBBA75316EB402200729C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDBBA75516EB402200729C97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDBBA75916EB402200729C97 /* TuentiTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuentiTest-Info.plist"; sourceTree = "<group>"; };
+		CDBBA75B16EB402200729C97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDBBA75D16EB402200729C97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDBBA75F16EB402200729C97 /* TuentiTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuentiTest-Prefix.pch"; sourceTree = "<group>"; };
+		CDBBA76016EB402200729C97 /* RLFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLFAppDelegate.h; sourceTree = "<group>"; };
+		CDBBA76116EB402200729C97 /* RLFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLFAppDelegate.m; sourceTree = "<group>"; };
+		CDBBA76316EB402200729C97 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CDBBA76516EB402200729C97 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CDBBA76716EB402200729C97 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDBBA76916EB402200729C97 /* RLFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLFViewController.h; sourceTree = "<group>"; };
+		CDBBA76A16EB402200729C97 /* RLFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLFViewController.m; sourceTree = "<group>"; };
+		CDBBA76D16EB402200729C97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RLFViewController.xib; sourceTree = "<group>"; };
+		CDBBA77416EB435E00729C97 /* RLF_MainData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLF_MainData.h; sourceTree = "<group>"; };
+		CDBBA77516EB435E00729C97 /* RLF_MainData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLF_MainData.m; sourceTree = "<group>"; };
+		CDBBA77716EB554A00729C97 /* RLF_TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLF_TransactionsViewController.h; sourceTree = "<group>"; };
+		CDBBA77816EB554A00729C97 /* RLF_TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLF_TransactionsViewController.m; sourceTree = "<group>"; };
+		CDBBA77916EB554A00729C97 /* RLF_TransactionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLF_TransactionsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBBA74B16EB402200729C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBBA75216EB402200729C97 /* UIKit.framework in Frameworks */,
+				CDBBA75416EB402200729C97 /* Foundation.framework in Frameworks */,
+				CDBBA75616EB402200729C97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDBBA74516EB402200729C97 = {
+			isa = PBXGroup;
+			children = (
+				CDBBA75716EB402200729C97 /* TuentiTest */,
+				CDBBA75016EB402200729C97 /* Frameworks */,
+				CDBBA74F16EB402200729C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBBA74F16EB402200729C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBA74E16EB402200729C97 /* TuentiTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBBA75016EB402200729C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBA75116EB402200729C97 /* UIKit.framework */,
+				CDBBA75316EB402200729C97 /* Foundation.framework */,
+				CDBBA75516EB402200729C97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDBBA75716EB402200729C97 /* TuentiTest */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBA76016EB402200729C97 /* RLFAppDelegate.h */,
+				CDBBA76116EB402200729C97 /* RLFAppDelegate.m */,
+				CDBBA76916EB402200729C97 /* RLFViewController.h */,
+				CDBBA76A16EB402200729C97 /* RLFViewController.m */,
+				CDBBA76C16EB402200729C97 /* RLFViewController.xib */,
+				CDBBA77716EB554A00729C97 /* RLF_TransactionsViewController.h */,
+				CDBBA77816EB554A00729C97 /* RLF_TransactionsViewController.m */,
+				CDBBA77916EB554A00729C97 /* RLF_TransactionsViewController.xib */,
+				CDBBA77416EB435E00729C97 /* RLF_MainData.h */,
+				CDBBA77516EB435E00729C97 /* RLF_MainData.m */,
+				CDBBA75816EB402200729C97 /* Supporting Files */,
+			);
+			path = TuentiTest;
+			sourceTree = "<group>";
+		};
+		CDBBA75816EB402200729C97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBA75916EB402200729C97 /* TuentiTest-Info.plist */,
+				CDBBA75A16EB402200729C97 /* InfoPlist.strings */,
+				CDBBA75D16EB402200729C97 /* main.m */,
+				CDBBA75F16EB402200729C97 /* TuentiTest-Prefix.pch */,
+				CDBBA76316EB402200729C97 /* Default.png */,
+				CDBBA76516EB402200729C97 /* Default@2x.png */,
+				CDBBA76716EB402200729C97 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBBA74D16EB402200729C97 /* TuentiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBBA77116EB402200729C97 /* Build configuration list for PBXNativeTarget "TuentiTest" */;
+			buildPhases = (
+				CDBBA74A16EB402200729C97 /* Sources */,
+				CDBBA74B16EB402200729C97 /* Frameworks */,
+				CDBBA74C16EB402200729C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuentiTest;
+			productName = TuentiTest;
+			productReference = CDBBA74E16EB402200729C97 /* TuentiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBBA74616EB402200729C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RLF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RaimonLapuente;
+			};
+			buildConfigurationList = CDBBA74916EB402200729C97 /* Build configuration list for PBXProject "TuentiTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDBBA74516EB402200729C97;
+			productRefGroup = CDBBA74F16EB402200729C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBBA74D16EB402200729C97 /* TuentiTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBBA74C16EB402200729C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBBA75C16EB402200729C97 /* InfoPlist.strings in Resources */,
+				CDBBA76416EB402200729C97 /* Default.png in Resources */,
+				CDBBA76616EB402200729C97 /* Default@2x.png in Resources */,
+				CDBBA76816EB402200729C97 /* Default-568h@2x.png in Resources */,
+				CDBBA76E16EB402200729C97 /* RLFViewController.xib in Resources */,
+				CDBBA77B16EB554A00729C97 /* RLF_TransactionsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBBA74A16EB402200729C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBBA75E16EB402200729C97 /* main.m in Sources */,
+				CDBBA76216EB402200729C97 /* RLFAppDelegate.m in Sources */,
+				CDBBA76B16EB402200729C97 /* RLFViewController.m in Sources */,
+				CDBBA77616EB435E00729C97 /* RLF_MainData.m in Sources */,
+				CDBBA77A16EB554A00729C97 /* RLF_TransactionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDBBA75A16EB402200729C97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBBA75B16EB402200729C97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDBBA76C16EB402200729C97 /* RLFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBBA76D16EB402200729C97 /* en */,
+			);
+			name = RLFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBBA76F16EB402200729C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDBBA77016EB402200729C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBBA77216EB402200729C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuentiTest/TuentiTest-Prefix.pch";
+				INFOPLIST_FILE = "TuentiTest/TuentiTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDBBA77316EB402200729C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuentiTest/TuentiTest-Prefix.pch";
+				INFOPLIST_FILE = "TuentiTest/TuentiTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBBA74916EB402200729C97 /* Build configuration list for PBXProject "TuentiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBBA76F16EB402200729C97 /* Debug */,
+				CDBBA77016EB402200729C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBBA77116EB402200729C97 /* Build configuration list for PBXNativeTarget "TuentiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBBA77216EB402200729C97 /* Debug */,
+				CDBBA77316EB402200729C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBBA74616EB402200729C97 /* Project object */;
+}
